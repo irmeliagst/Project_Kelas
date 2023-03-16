@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Kedua"
         tools:targetApi="31">
         <activity
+            android:name=".RecentAdapter"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ActivityDetail2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Halaman"
             android:exported="false">
             <meta-data
